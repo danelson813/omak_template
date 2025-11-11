@@ -1,0 +1,13 @@
+[project]
+name = "omak"
+version = "0.1.0"
+description = "Template for python project"
+requires-python = ">=3.12"
+dependencies = [
+    "pre-commit>=4.4.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.14.4",
+]
